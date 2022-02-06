@@ -1,0 +1,8 @@
+name: RavenChat
+version: '${version}'
+main: com.luzfaltex.ravenchat.RavenChatPaper
+api-version: 1.18
+prefix: [ RC ]
+authors: [ LuzFaltex_Contributors ]
+description: A feature-parity remake of VentureChat by Aust1n46 for Sponge, Fabric, and Paper.
+website: https://github.com/ravenrockrp/RavenChat

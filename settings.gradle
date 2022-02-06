@@ -1,0 +1,3 @@
+rootProject.name = 'ravenchat'
+
+include 'ravenchat-common', 'ravenchat-paper', 'ravenchat-sponge', 'ravenchat-fabric'

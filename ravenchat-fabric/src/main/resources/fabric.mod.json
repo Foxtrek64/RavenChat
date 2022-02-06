@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ravenchat-fabric",
+  "version": "${version}",
+
+  "name": "Ravenchat",
+  "description": "A feature-parity remake of VentureChat by Aust1n46 for Sponge, Fabric, and Paper.",
+  "authors": [
+    "LuzFaltex_Contributors"
+  ],
+  "contact": {
+    "website": "https://github.com/ravenrockrp/RavenChat",
+    "repo": "https://github.com/ravenrockrp/RavenChat"
+  },
+
+  "license": "ISC",
+  "icon": "assets/ravenchat-fabric/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "com.luzfaltex.ravenchat.client.RavenchatFabricClient"
+    ],
+    "main": [
+      "com.luzfaltex.ravenchat.RavenchatFabric"
+    ]
+  },
+
+          "mixins": [
+        "ravenchat-fabric.mixins.json"
+      ],
+    
+  "depends": {
+    "fabricloader": ">=0.13.1",
+              "fabric": "*",
+          "minecraft": "1.18.1"
+  }
+}
